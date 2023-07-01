@@ -27,6 +27,7 @@ export { default as ItemCard } from "./ItemCard";
 export { default as Pets } from "./Pets";
 export { default as SideBar } from "./SideBar";
 export { default as ProductCard } from "./ProductCard";
+export { default as AddPet } from "./AddPet";
 export { default as FormCheckout } from "./FormCheckout";
 export { default as Features2x3 } from "./Features2x3";
 export { default as ReviewCard } from "./ReviewCard";

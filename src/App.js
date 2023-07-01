@@ -1,5 +1,5 @@
 import './App.css';
-import { Pets, NavBar, Footer, PetProfile } from './ui-components';
+import { Pets, NavBar, Footer, AddPet } from './ui-components';
 function App() {
   const navbarOverrides = {
     'image': {
@@ -18,6 +18,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <NavBar width={'100%'} overrides={navbarOverrides} />
+        <AddPet />
         <Pets />
         {/* <PetProfile overrides={petProfileOverride} /> */}
         <Footer width={'100%'} />
